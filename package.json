@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cross-env": "^7.0.3",
     "eslint-config-prettier": "^8.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,14 +25,14 @@
       "react-app/jest",
       "prettier"
     ],
-    "rules":{
-      "for-direction": "error"
-      ,"no-debugger":"warn"
-      ,"no-dupe-args": "error"
-      ,"no-dupe-else-if":"error"
-      ,"no-duplicate-imports":"error"
-      ,"no-unused-vars":"warn"
-      ,"use-isnan":"error"
+    "rules": {
+      "for-direction": "error",
+      "no-debugger": "warn",
+      "no-dupe-args": "error",
+      "no-dupe-else-if": "error",
+      "no-duplicate-imports": "error",
+      "no-unused-vars": "warn",
+      "use-isnan": "error"
     }
   },
   "browserslist": {
